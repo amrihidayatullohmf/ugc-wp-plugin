@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>*|SUBJECT|*</title>
+	<link rel="stylesheet" type="text/css" href="http://goodpeople.netmedia.co.id/wp-admin/medias/assets/fonts.css">
+       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	
+	<style type="text/css">		
+                * {
+                       font-family: 'Source Sans Pro', sans-serif !important;
+                }
+		body {
+			padding: 0;
+			margin : 0;
+			background: #ccc;
+		}
+		.box {
+			width: 500px;
+			padding: 0;
+			background: #fff;
+			display: inline-block;
+		}
+		.box .header {
+			width: 100%;
+			padding: 0;
+			background : #0f77ff;
+		}
+		.box .header img {
+			width: 100%;
+		}
+		.box .body {
+			width: 90%;
+			padding: 20px 5%;
+			color: #444;
+			line-height: 1.3;
+			font-size: 14px;
+			text-align: center;
+		}
+		.box .body h3 {
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.box .body .article-box {
+			width: 90%;
+			display: inline-block;
+			margin-top: 20px;
+			border : solid 1px #f0f0f0;
+		}
+		.box .body .article-box img {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		.box .body .article-box .title {
+			width: 90%;
+			padding: 0 5%;
+			margin-bottom: 10px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.box .body .article-box .desc {
+			width: 90%;
+			padding: 0 5%;
+			margin-bottom: 10px;
+			font-size: 12px;
+		}
+		.box .footer {
+			width: 90%;
+			padding: 5%;
+			background : #f0f0f0;
+			color: #333;
+		}
+		.box .footer .big {
+			font-size: 14px;
+			font-weight: bold;
+		}		
+		.box .footer .small {
+			font-size: 14px;
+			font-weight: bold;
+		}		
+		.box .footer .smaller {
+			font-size: 10px;
+			margin-top: 10px;
+		}		
+		.box .footer .smaller a {
+			color: #0f77ff;
+		}
+	</style>
+
+</head>
+<body>
+	<div style="width: 100%; text-align: center;padding: 30px 0">
+		<div class="box">
+			<div class="header">
+				<img src="*|HEADERIMAGE|*">
+			</div>
+			<div class="body">
+				<h3>Hai, *|NAME|*</h3>
+				<p align="center">
+					 Yeay! your submission has been approved by Admin. Now people can see and like your post.&nbsp;
+				</p>
+				
+				<div class="article-box">
+					<img src="*|IMAGE|*">
+					<div class="title">*|TITLE|*</div>
+					<div class="desc">*|DESC|*</div>
+				</div>
+
+			</div>
+			<div class="footer">
+				
+			
+			</div>
+		</div>
+	</div>
+</body>
+</html>
